@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<toolbox>
+	<xhtml>true</xhtml>
+	<data type="string">
+		<key>tableHeader0</key>
+		<value>Facility ID</value>
+	</data>
+	<data type="string">
+		<key>tableHeader1</key>
+		<value>Facility Name</value>
+	</data>
+	<data type="string">
+		<key>tableHeader2</key>
+		<value>Facility Type</value>
+	</data>
+	<tool>
+		<key>number</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.NumberTool</class>
+	</tool>
+	<tool>
+		<key>date</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.DateTool</class>
+	</tool>
+	<tool>
+		<key>loop</key>
+		<scope>request</scope>
+		<class>org.apache.velocity.tools.generic.LoopTool</class>
+	</tool>
+	<tool>
+		<key>math</key>
+		<class>org.apache.velocity.tools.generic.MathTool</class>
+	</tool>
+	<tool>
+		<key>sorter</key>
+		<scope>application</scope>
+		<class>org.apache.velocity.tools.generic.SortTool</class>
+	</tool>
+	<tool>
+	  <key>link</key>
+	  <scope>request</scope>
+	  <class>org.apache.velocity.tools.view.tools.LinkTool</class>
+	</tool>	
+	<tool>
+	  <key>string</key>
+	  <scope>application</scope>
+	  <class>org.apache.commons.lang.StringUtils</class>
+	</tool>
+</toolbox>
